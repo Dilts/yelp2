@@ -15,6 +15,10 @@
 		8622CAC1273445A10017ACCF /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8622CAC0273445A10017ACCF /* Business.swift */; };
 		8622CAC4273447D60017ACCF /* BusinessSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8622CAC3273447D60017ACCF /* BusinessSearch.swift */; };
 		8622CAC827344A920017ACCF /* Contstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8622CAC727344A920017ACCF /* Contstants.swift */; };
+		8622CACF27346A560017ACCF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8622CACE27346A560017ACCF /* HomeView.swift */; };
+		8622CAD427346E070017ACCF /* BusinessList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8622CAD327346E070017ACCF /* BusinessList.swift */; };
+		8622CAD8273470C50017ACCF /* BusinessSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8622CAD7273470C50017ACCF /* BusinessSectionHeader.swift */; };
+		8622CADB273472090017ACCF /* BusinessSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8622CADA273472090017ACCF /* BusinessSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		8622CAC0273445A10017ACCF /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 		8622CAC3273447D60017ACCF /* BusinessSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSearch.swift; sourceTree = "<group>"; };
 		8622CAC727344A920017ACCF /* Contstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contstants.swift; sourceTree = "<group>"; };
+		8622CACE27346A560017ACCF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8622CAD327346E070017ACCF /* BusinessList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessList.swift; sourceTree = "<group>"; };
+		8622CAD7273470C50017ACCF /* BusinessSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSectionHeader.swift; sourceTree = "<group>"; };
+		8622CADA273472090017ACCF /* BusinessSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,9 @@
 			isa = PBXGroup;
 			children = (
 				8622CAAA273431160017ACCF /* LaunchView.swift */,
+				8622CACB27346A2B0017ACCF /* Home */,
+				8622CACD27346A410017ACCF /* OnBoarding */,
+				8622CACC27346A340017ACCF /* Denied */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -111,6 +122,39 @@
 				8622CAC727344A920017ACCF /* Contstants.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8622CACB27346A2B0017ACCF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8622CACE27346A560017ACCF /* HomeView.swift */,
+				8622CAD227346DF60017ACCF /* List */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8622CACC27346A340017ACCF /* Denied */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Denied;
+			sourceTree = "<group>";
+		};
+		8622CACD27346A410017ACCF /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		8622CAD227346DF60017ACCF /* List */ = {
+			isa = PBXGroup;
+			children = (
+				8622CAD327346E070017ACCF /* BusinessList.swift */,
+				8622CADA273472090017ACCF /* BusinessSection.swift */,
+				8622CAD7273470C50017ACCF /* BusinessSectionHeader.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,9 +227,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8622CAAB273431160017ACCF /* LaunchView.swift in Sources */,
+				8622CACF27346A560017ACCF /* HomeView.swift in Sources */,
 				8622CAC1273445A10017ACCF /* Business.swift in Sources */,
+				8622CAD8273470C50017ACCF /* BusinessSectionHeader.swift in Sources */,
 				8622CAA9273431160017ACCF /* yelp2App.swift in Sources */,
 				8622CAC4273447D60017ACCF /* BusinessSearch.swift in Sources */,
+				8622CAD427346E070017ACCF /* BusinessList.swift in Sources */,
+				8622CADB273472090017ACCF /* BusinessSection.swift in Sources */,
 				8622CAC827344A920017ACCF /* Contstants.swift in Sources */,
 				8622CABD273433060017ACCF /* ContentModel.swift in Sources */,
 			);
