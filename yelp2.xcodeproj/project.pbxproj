@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8622CAA9273431160017ACCF /* yelp2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8622CAA8273431160017ACCF /* yelp2App.swift */; };
-		8622CAAB273431160017ACCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8622CAAA273431160017ACCF /* ContentView.swift */; };
+		8622CAAB273431160017ACCF /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8622CAAA273431160017ACCF /* LaunchView.swift */; };
 		8622CAAD273431220017ACCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8622CAAC273431220017ACCF /* Assets.xcassets */; };
 		8622CAB0273431220017ACCF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8622CAAF273431220017ACCF /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		8622CAA5273431150017ACCF /* yelp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yelp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8622CAA8273431160017ACCF /* yelp2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yelp2App.swift; sourceTree = "<group>"; };
-		8622CAAA273431160017ACCF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8622CAAA273431160017ACCF /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		8622CAAC273431220017ACCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8622CAAF273431220017ACCF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8622CAB1273431220017ACCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,8 +52,10 @@
 		8622CAA7273431150017ACCF /* yelp2 */ = {
 			isa = PBXGroup;
 			children = (
+				8622CABA273431D50017ACCF /* Views */,
+				8622CAB9273431CA0017ACCF /* ViewModels */,
+				8622CAB8273431C30017ACCF /* Models */,
 				8622CAA8273431160017ACCF /* yelp2App.swift */,
-				8622CAAA273431160017ACCF /* ContentView.swift */,
 				8622CAAC273431220017ACCF /* Assets.xcassets */,
 				8622CAB1273431220017ACCF /* Info.plist */,
 				8622CAAE273431220017ACCF /* Preview Content */,
@@ -67,6 +69,28 @@
 				8622CAAF273431220017ACCF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8622CAB8273431C30017ACCF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8622CAB9273431CA0017ACCF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8622CABA273431D50017ACCF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8622CAAA273431160017ACCF /* LaunchView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8622CAAB273431160017ACCF /* ContentView.swift in Sources */,
+				8622CAAB273431160017ACCF /* LaunchView.swift in Sources */,
 				8622CAA9273431160017ACCF /* yelp2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
