@@ -19,6 +19,7 @@
 		8622CAD427346E070017ACCF /* BusinessList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8622CAD327346E070017ACCF /* BusinessList.swift */; };
 		8622CAD8273470C50017ACCF /* BusinessSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8622CAD7273470C50017ACCF /* BusinessSectionHeader.swift */; };
 		8622CADB273472090017ACCF /* BusinessSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8622CADA273472090017ACCF /* BusinessSection.swift */; };
+		8622CADF2734759E0017ACCF /* BusinessRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8622CADE2734759E0017ACCF /* BusinessRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		8622CAD327346E070017ACCF /* BusinessList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessList.swift; sourceTree = "<group>"; };
 		8622CAD7273470C50017ACCF /* BusinessSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSectionHeader.swift; sourceTree = "<group>"; };
 		8622CADA273472090017ACCF /* BusinessSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSection.swift; sourceTree = "<group>"; };
+		8622CADE2734759E0017ACCF /* BusinessRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 				8622CAD327346E070017ACCF /* BusinessList.swift */,
 				8622CADA273472090017ACCF /* BusinessSection.swift */,
 				8622CAD7273470C50017ACCF /* BusinessSectionHeader.swift */,
+				8622CADE2734759E0017ACCF /* BusinessRow.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8622CAAB273431160017ACCF /* LaunchView.swift in Sources */,
+				8622CADF2734759E0017ACCF /* BusinessRow.swift in Sources */,
 				8622CACF27346A560017ACCF /* HomeView.swift in Sources */,
 				8622CAC1273445A10017ACCF /* Business.swift in Sources */,
 				8622CAD8273470C50017ACCF /* BusinessSectionHeader.swift in Sources */,
