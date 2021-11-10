@@ -27,22 +27,24 @@ struct BusinessRow: View {
                 
                 //Name and distance
                 VStack(alignment: .leading) {
-                    Text(business.name ?? "")
+                    Text(business.name)
                         .bold()
-                    Text(String(format: "%.1f km away", (business.distance ?? 0)/1000 ))
+                    Text(String(format: "%.1f km away", business.distance/1000 ))
                         .font(.caption)
                 }
+                
                 Spacer()
                 
                 //Rating and number of reviews
                 VStack(alignment: .leading) {
-                    Image("regular_\(business.rating ?? 0)")
-                    Text("\(business.reviewCount ?? 0) Reviews")
+                    Image("regular_\(business.rating)")
+                    Text("\(business.reviewCount) Reviews")
                         .font(.caption)
                 }
             }
             Divider()
         }
+        .foregroundColor(.black)
         
     }
 }

@@ -11,21 +11,21 @@ class Business: Decodable, Identifiable, ObservableObject {
     
     @Published var imageData: Data?
     
-    var id: String?
-    var name: String?
-    var alias: String?
+    var id: String = ""
+    var name: String = ""
+    var alias: String = ""
     var imageUrl: String?
-    var isClosed: Bool?
-    var url: String?
-    var reviewCount: Int?
+    var isClosed: Bool = true
+    var url: String = ""
+    var reviewCount: Int = 0
     var categories: [Category]?
-    var rating: Double?
+    var rating: Double = 0
     var coordinates: Coordinate?
-    var price: String?
+    var price: String = ""
     var location: Location?
-    var phone: String?
-    var displayPhone: String?
-    var distance: Double?
+    var phone: String = ""
+    var displayPhone: String = ""
+    var distance: Double = 0
     
     enum CodingKeys: String, CodingKey {
         
